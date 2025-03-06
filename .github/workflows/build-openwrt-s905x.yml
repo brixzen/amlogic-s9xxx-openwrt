@@ -14,7 +14,7 @@ jobs:
       - name: Build OpenWrt for S905X
         uses: ophub/amlogic-s9xxx-openwrt@main
         with:
-          openwrt_path: https://downloads.openwrt.org/releases/24.10.0/targets/armsr/armv8/openwrt-24.10.0-armsr-armv8-generic-ext4-rootfs.img.gz
+          openwrt_path: https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/openwrt/openwrt-armvirt-64-default-rootfs.tar.gz
           openwrt_board: s905x
           openwrt_kernel: 6.1.y
           kernel_usage: stable
