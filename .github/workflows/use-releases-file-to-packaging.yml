@@ -228,10 +228,10 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - brixzen
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Jakarta
 
 jobs:
   build:
